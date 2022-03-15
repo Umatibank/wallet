@@ -143,7 +143,7 @@ const actions = {
         env: "mainnet",
         algod: "https://algoexplorerapi.io",
         kmd: "?",
-        indexer: "https://algoindexer.algoexplorerapi.io",
+        indexer: "https://algoindexer.algoexplorerapi.io/v2",
       });
     }
     if (env == "testnet") {
@@ -151,7 +151,7 @@ const actions = {
         env: "testnet",
         algod: "https://testnet.algoexplorerapi.io",
         kmd: "?",
-        indexer: "https://testnet.algoexplorerapi.io/idx2",
+        indexer: "https://testnet.algoindexer.algoexplorerapi.io/v2",
       });
     }
     if (env == "devnet") {
